@@ -1,0 +1,1 @@
+const s=e=>{e instanceof Array?e.forEach(s):(e.map&&e.map.dispose(),e.dispose())},c=e=>{e.geometry&&e.geometry.dispose(),e.material&&s(e.material),e.texture&&e.texture.dispose(),e.children&&e.children.forEach(c)},t=e=>{if(e&&e.children)for(;e.children.length;){const i=e.children[0];e.remove(i),c(i)}};export{t as e};
