@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper-c27b6911.js";import{o as _,c as t}from"./index-9ee60282.js";const c={id:"canvas"},a={__name:"earth01",setup(o){return(s,r)=>(_(),t("canvas",c))}},d=e(a,[["__scopeId","data-v-93c37dcb"]]);export{d as default};
